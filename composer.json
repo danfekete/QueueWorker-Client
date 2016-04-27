@@ -1,0 +1,20 @@
+{
+  "name": "voov/queueworker-client",
+  "description": "QueueWorker Client",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Fekete",
+      "email": "daniel.fekete@voov.hu"
+    }
+  ],
+  "require": {
+    "predis/predis": "1.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "voov\\QueueWorker\\": "src/"
+    }
+  }
+}
